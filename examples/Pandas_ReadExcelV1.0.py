@@ -8,7 +8,7 @@ import pandas as pd
 
 print("hello ")
 
-sExcelFile = './data/复诊名单.xlsx'
+sExcelFile = '../data/复诊名单.xlsx'
 
 data = pd.read_excel(sExcelFile, sheet_name = 'base_doctor')
 
