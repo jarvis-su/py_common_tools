@@ -14,7 +14,7 @@
 
 import pandas as pd
 
-sExcelFile = 'C:/Users/JarvisSu/OneDrive/workSpace/Careate/互联网医院/医生医院数据/复诊名单.xlsx'
+sExcelFile = './data/复诊名单.xlsx'
 
 df = pd.read_excel(sExcelFile, sheet_name='base_doctor', header=None)
 

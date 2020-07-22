@@ -8,9 +8,9 @@ import pandas as pd
 
 print("hello ")
 
-file = 'C:/Users/JarvisSu/OneDrive/workSpace/Careate/互联网医院/医生医院数据/复诊名单.xlsx'
+sExcelFile = './data/复诊名单.xlsx'
 
-data = pd.read_excel(file, sheet_name = 'base_doctor')
+data = pd.read_excel(sExcelFile, sheet_name = 'base_doctor')
 
 #获取最大行，最大列
 nrows=data.shape[0]
