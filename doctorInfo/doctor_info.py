@@ -29,5 +29,5 @@ for row in range(doctor7_2_79.shape[0]):
         doc_id_number = str(base_doctor.iloc[iRow,3])
         doc_grade = str(base_doctor.iloc[iRow,4])
         if (doc_id_number.strip() == id_number.strip()):
-            print('Find id_number : ' + id_number)
+            print(cid + ','+ dept_name + ',' + doc_name + ',' + doc_grade)
     #print(doc_id_number)
