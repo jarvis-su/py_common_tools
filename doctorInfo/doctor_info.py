@@ -13,12 +13,12 @@ print("=========================================================================
 print('Max Rows: '+str(nrows))
 print('Max Columns: '+str(ncols))
 
-for iRow in range(nrows):
-    rowContext = ''
-    for iCol in range(ncols):
-        rowContext = rowContext + ' - ' + str(base_doctor.iloc[iRow,iCol])
-
-    print(rowContext)
+# for iRow in range(nrows):
+#     rowContext = ''
+#     for iCol in range(ncols):
+#         rowContext = rowContext + ' - ' + str(base_doctor.iloc[iRow,iCol])
+#
+#     print(rowContext)
 
 for row in range(doctor7_2_79.shape[0]):
     id_number = str(doctor7_2_79.iloc[row][2])
